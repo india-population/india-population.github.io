@@ -3,41 +3,23 @@
 
 <head>
 
-<script type="text/javascript" src="/lib/jquery-1.11.1.min.js"></script>
-<script type="text/javascript" src="/lib/jquery.canvasjs.min.js"></script>
-<script type="text/javascript">
-$(function () {
-	//Better to construct options first and then pass it as a parameter
-	var options = {
-		title: {
-			text: "Spline Chart using jQuery Plugin"
-		},
-                animationEnabled: true,
-		data: [
-		{
-			type: "spline",
-			dataPoints: [
-				{ x: 1963, y: 449661874 },
-				{ x: 1964, y: 458691457 },
-				{ x: 1965, y: 468054145 },
-				{ x: 1966, y: 477729958 },
-				{ x: 1967, y: 487690114 },
-				{ x: 1968, y: 497920270 },
-				{ x: 1969, y: 508402908 },
-				{ x: 1970, y: 519162069 }
-			]
-		}
-		]
-	};
-
-	$("#chartContainer").CanvasJSChart(options);
-
-});
-</script>
+<script type="text/javascript" src="lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="lib/jquery.canvasjs.min.js"></script>
 </head>
 
 <body>
 <div id="chartContainer" style="height: 400px; width: 100%;"></div>
+
+<div id="sidebar"> 
+  <input type="checkbox" id="checkbox" value="india" name="india" /><label>India</label>
+  <input type="checkbox" id="checkbox" value="tamilnadu" name="india" /><label>Tamilnadu</label>
+  <input type="checkbox" id="checkbox" value="kerala" name="india" /><label>Kerala</label>
+  <input type="checkbox" id="checkbox" value="karnadaka" name="india" /><label>Karnadaka</label>
+</div>
+
+
+<script src="data.js"></script>
+<script src="index.js"></script>
 </body>
 
 </html>
