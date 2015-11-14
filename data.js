@@ -1,5 +1,6 @@
 Lines = [['india', {
 			type: "spline",
+                        color: "#FF0000",
 			dataPoints: [
 			  { x: new Date('1960'), y: 449661874 },
 			  { x: new Date('1961'), y: 458691457 },
