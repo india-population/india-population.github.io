@@ -63,20 +63,27 @@ var index = {};
 (Lines.forEach(function(a) {
   var b = a[0];
   $.subscribe('line.'+a[0],  function (a , b) {
-    //console.log(a)
     if(b) {
       options.data.push(b);
       $("#chartContainer").CanvasJSChart(options);
       index[a] = options.data.length;
-      //console.log(index);
     }
     else {
       t = index[a] - 1;
       options.data.splice(t, 1);
-       $("#chartContainer").CanvasJSChart(options);
+      $.publish('indexchange', [index[a]]);
+      $("#chartContainer").CanvasJSChart(options);
     }
   });
 }));
+
+($.subscribe('indexchange', function(i) {
+    for (key in index) {
+      if (index[key] > i)
+        index[key] = index[key] -1;
+    }
+  })
+);
 
 //Better to construct options first and then pass it as a parameter
 var options = {
