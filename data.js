@@ -60,38 +60,20 @@ Lines = [['india', {
 			]
 		}], ['tamilnadu',{
 			type: "spline",
+                        color: "#00ff00",
 			dataPoints: [
-				{ x: new Date('1963'), y: 429661874 },
-				{ x: new Date('1964'), y: 428691457 },
-				{ x: new Date('1965'), y: 428054145 },
-				{ x: new Date('1966'), y: 427729958 },
-				{ x: new Date('1967'), y: 427690114 },
-				{ x: new Date('1968'), y: 427920270 },
-				{ x: new Date('1969'), y: 528402908 },
-				{ x: new Date('1971'), y: 529162069 }
+				{ x: new Date('2011'), y: 72138958 }
 			]
 		}], ['kerala', {
 			type: "spline",
+                        color: "#66ff99",
 			dataPoints: [
-				{ x: new Date('1963'), y: 439661874 },
-				{ x: new Date('1964'), y: 438691457 },
-				{ x: new Date('1965'), y: 438054145 },
-				{ x: new Date('1966'), y: 437729958 },
-				{ x: new Date('1967'), y: 437690114 },
-				{ x: new Date('1968'), y: 437920270 },
-				{ x: new Date('1969'), y: 538402908 },
-				{ x: new Date('1971'), y: 539162069 }
+				{ x: new Date('2011'), y: 33387677 }
 			]
 		}], ['karnadaka', {
 			type: "spline",
+                        color: "#ff33cc",
 			dataPoints: [
-				{ x: new Date('1963'), y: 449661874 },
-				{ x: new Date('1964'), y: 448691457 },
-				{ x: new Date('1965'), y: 448054145 },
-				{ x: new Date('1966'), y: 447729958 },
-				{ x: new Date('1967'), y: 447690114 },
-				{ x: new Date('1968'), y: 447920270 },
-				{ x: new Date('1969'), y: 548402908 },
-				{ x: new Date('1971'), y: 549162069 }
+				{ x: new Date('2011'), y: 61130704 }
 			]
 		}]];
