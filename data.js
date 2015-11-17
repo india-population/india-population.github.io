@@ -88,5 +88,293 @@ Lines = [
         { x: new Date('2011'), y: 61130704 }
       ]
     }
+  ],
+  ['AP',
+    {
+      type: "spline",
+      color: "#003366",
+      dataPoints: [
+        { x: new Date('2011'), y: 84665533 }
+      ]
+    }
+  ],
+  ['ARP',
+    {
+      type: "spline",
+      color: "#336699",
+      dataPoints: [
+        { x: new Date('2011'), y: 1382611 }
+      ]
+    }
+  ],
+  ['Assam',
+    {
+      type: "spline",
+      color: "#3366cc",
+      dataPoints: [
+        { x: new Date('2011'), y: 31169272 }
+      ]
+    }
+  ],
+  ['Bihar',
+    {
+      type: "spline",
+      color: "#003399",
+      dataPoints: [
+        { x: new Date('2011'), y: 103804637 }
+      ]
+    }
+  ],
+  ['Chhattisgarh',
+    {
+      type: "spline",
+      color: "#000099",
+      dataPoints: [
+        { x: new Date('2011'), y: 25540196 }
+      ]
+    }
+  ],
+  ['Goa',
+    {
+      type: "spline",
+      color: "#0000cc",
+      dataPoints: [
+        { x: new Date('2011'), y: 1457723 }
+      ]
+    }
+  ],
+  ['Gujarat',
+    {
+      type: "spline",
+      color: "#000066",
+      dataPoints: [
+        { x: new Date('2011'), y: 60383628 }
+      ]
+    }
+  ],
+  ['Haryana',
+    {
+      type: "spline",
+      color: "#333399",
+      dataPoints: [
+        { x: new Date('2011'), y: 25353081 }
+      ]
+    }
+  ],
+  ['HP',
+    {
+      type: "spline",
+      color: "#666699",
+      dataPoints: [
+        { x: new Date('2011'), y: 6856509 }
+      ]
+    }
+  ],
+  ['JK',
+    {
+      type: "spline",
+      color: "#6600cc",
+      dataPoints: [
+        { x: new Date('2011'), y: 12548926 }
+      ]
+    }
+  ],
+  ['Jharkhand',
+    {
+      type: "spline",
+      color: "#9900ff",
+      dataPoints: [
+        { x: new Date('2011'), y: 32966238 }
+      ]
+    }
+  ],
+  ['MP',
+    {
+      type: "spline",
+      color: "#9900cc",
+      dataPoints: [
+        { x: new Date('2011'), y: 72597565 }
+      ]
+    }
+  ],
+  ['Maharashtra',
+    {
+      type: "spline",
+      color: "#660066",
+      dataPoints: [
+        { x: new Date('2011'), y: 112372972 }
+      ]
+    }
+  ],
+  ['Manipur',
+    {
+      type: "spline",
+      color: "#993399",
+      dataPoints: [
+        { x: new Date('2011'), y: 2721756 }
+      ]
+    }
+  ],
+  ['Meghalaya',
+    {
+      type: "spline",
+      color: "#990099",
+      dataPoints: [
+        { x: new Date('2011'), y: 2964007 }
+      ]
+    }
+  ],
+  ['Mizoram',
+    {
+      type: "spline",
+      color: "#993366",
+      dataPoints: [
+        { x: new Date('2011'), y: 1091014 }
+      ]
+    }
+  ],
+  ['Nagaland',
+    {
+      type: "spline",
+      color: "#660033",
+      dataPoints: [
+        { x: new Date('2011'), y: 1980602 }
+      ]
+    }
+  ],
+  ['Orissa',
+    {
+      type: "spline",
+      color: "#990033",
+      dataPoints: [
+        { x: new Date('2011'), y: 41947358 }
+      ]
+    }
+  ],
+  ['Punjab',
+    {
+      type: "spline",
+      color: "#993333",
+      dataPoints: [
+        { x: new Date('2011'), y: 27704236 }
+      ]
+    }
+  ],
+  ['Rajasthan',
+    {
+      type: "spline",
+      color: "#800000",
+      dataPoints: [
+        { x: new Date('2011'), y: 68621012 }
+      ]
+    }
+  ],
+  ['Sikkim',
+    {
+      type: "spline",
+      color: "#990000",
+      dataPoints: [
+        { x: new Date('2011'), y: 607688 }
+      ]
+    }
+  ],
+  ['Tripura',
+    {
+      type: "spline",
+      color: "#993300",
+      dataPoints: [
+        { x: new Date('2011'), y: 3671032 }
+      ]
+    }
+  ],
+  ['UP',
+    {
+      type: "spline",
+      color: "#cc3300",
+      dataPoints: [
+        { x: new Date('2011'), y: 199581477 }
+      ]
+    }
+  ],
+  ['Uttarakhand',
+    {
+      type: "spline",
+      color: "#996600",
+      dataPoints: [
+        { x: new Date('2011'), y: 10116752 }
+      ]
+    }
+  ],
+  ['WB',
+    {
+      type: "spline",
+      color: "#663300",
+      dataPoints: [
+        { x: new Date('2011'), y: 91347736 }
+      ]
+    }
+  ],
+  ['AN',
+    {
+      type: "spline",
+      color: "#996633",
+      dataPoints: [
+        { x: new Date('2011'), y: 379944 }
+      ]
+    }
+  ],
+  ['Chandigarh',
+    {
+      type: "spline",
+      color: "#999966",
+      dataPoints: [
+        { x: new Date('2011'), y: 1054686 }
+      ]
+    }
+  ],
+  ['DN',
+    {
+      type: "spline",
+      color: "#666633",
+      dataPoints: [
+        { x: new Date('2011'), y: 342853 }
+      ]
+    }
+  ],
+  ['DD',
+    {
+      type: "spline",
+      color: "#333300",
+      dataPoints: [
+        { x: new Date('2011'), y: 242911 }
+      ]
+    }
+  ],
+  ['Delhi',
+    {
+      type: "spline",
+      color: "#336600",
+      dataPoints: [
+        { x: new Date('2011'), y: 16753235 }
+      ]
+    }
+  ],
+  ['Lakshadweep',
+    {
+      type: "spline",
+      color: "#003300",
+      dataPoints: [
+        { x: new Date('2011'), y: 64429 }
+      ]
+    }
+  ],
+  ['Puducherry',
+    {
+      type: "spline",
+      color: "#339933",
+      dataPoints: [
+        { x: new Date('2011'), y: 1244464 }
+      ]
+    }
   ]
 ];
