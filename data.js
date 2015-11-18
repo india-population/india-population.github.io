@@ -67,7 +67,16 @@ Lines = [
       type: "spline",
       color: "#00ff00",
       dataPoints: [
-        { x: new Date('2011'), y: 72138958 }
+        { x: new Date('1961'), y: 33687000 },
+        { x: new Date('1971'), y: 41199000 },
+        { x: new Date('1981'), y: 48408000 },
+        { x: new Date('1991'), y: 55859000 },
+        { x: new Date('2001'), y: 62406000 },
+        { x: new Date('2011'), y: 72138958 },
+        { x: new Date('2012'), y: 73221042 },
+        { x: new Date('2013'), y: 74319357 },
+        { x: new Date('2014'), y: 75478738 },
+        { x: new Date('2015'), y: 76656206 }
       ]
     }
   ],
